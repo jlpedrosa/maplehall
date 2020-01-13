@@ -5,10 +5,11 @@ The comapany running the building maintenance is Schnittger Bourne Property Serv
 [Website](https://www.schnittgerbourne.com/)
 
 The anual cost is:  
-|Size |cost|
-|-----|----|
-|1 Bed| 1592.13 |
-|2 Bed| 1966.02|
+
+| Size        | Cost          |
+|:-----------:|:-------------:|
+| 1 Bed       | 1592.13       |
+| 2 Bed       | 1966.02       |
 
 
 Contact Info:  
