@@ -4,7 +4,7 @@ This page contains the different providers for gas an electricity available in M
 
 There are two main websites to compare tarifs:
 
-https://www.bonkers.ie/compare-gas-electricity-prices
+https://www.bonkers.ie/compare-gas-electricity-prices  
 https://switcher.ie/gas-electricity/comparison/
 
 Due to the fact that flats have A2/A3 BER energy rating, and a relatively "geek" avg user,

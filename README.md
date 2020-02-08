@@ -12,6 +12,7 @@ Slack: https://maple-hall.slack.com you can join this Slack by clicking [here](h
 News
 ---
 Eir codes already available [check yours](https://www.eircode.ie/)
+Snagging will be done during last week of march through last week of april.
 
 
 Index
