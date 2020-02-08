@@ -9,3 +9,5 @@ Aparently the App provider is based on [heatmiser](https://www.heatmiser.com/)
 Jail breaking
 ---
 TO be investigated once we have access to the flats.
+
+== Placeholder - Instructions how to operate immersion system ==
