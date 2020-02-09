@@ -11,9 +11,9 @@ In the living room there are also two wall holes, I assume one will be for data 
 In the main bedroom there's only one empty wall hole. I assume it will be for antena.
 
 So I expect this empty tubes to pre exist:  
-* Utility -> Living room  
-* Utility -> Living room  
-* Utility -> Master Bedroom 
+* Utility -> Living room  (TV Tube)
+* Utility -> Living room  (Data tube)
+* Utility -> Master Bedroom (TV tube)
 
 My personal prefference would be ignore the TV and fill all the tubes with Cat6a twisted pair.
 
@@ -67,14 +67,14 @@ Hubs
 
 Bulbs
 ---
-The Ikea bulbs family have Zigbee bulbs, they are pretty cost effective and a wide range of options. Prices go from 6 - 20 eur, depending on the amount puchased and the option. The RGB ones are the most expensive, most of them are in the 10 eur per bulb.
+The Ikea bulbs in the TRÅDFRI family implement Zigbee, they are pretty cost effective and a wide range of options. Prices go from 6 - 20 eur, depending on the amount puchased and the option. The RGB ones are the most expensive, most of the non RBG ones are in the 10 eur per bulb.
 
 [Ikea Search](https://www.ikea.com/ie/en/search/products/?q=TR%C3%85DFRI%20bulb)
 
 
 Sockets
 ---
-Sockets can be replaced and adding smart ones, providing control over them an also power consumption monitorin. The monitoring part can be solved by changing the main circuit breakers in the pannel instead of changing the switches.
+Sockets can be replaced and adding smart ones, providing control over them an also power consumption monitoring.The monitoring part can be solved by changing the main circuit breakers in the pannel instead of changing the switches.
 
 
 Switches
@@ -91,7 +91,7 @@ Ring brand has a family of products that seems to be a good option in most cases
   
 Thermostats
 ---
-Area of investigation
+see: [specific section](./Heating.md)
 
 Flood detection
 ---
