@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# maple-hall
+=======
 [logo]: ./docs/logo.jpg "Maple Hall"
 
 Maple Hall
@@ -24,3 +27,4 @@ Index
 5.  [Energy](./Energy.md)
 6.  [Garabage collection](./GarbageCollection.md)
 10. [3d Model](./Sketchup.md)
+>>>>>>> 3818358eb8c41a6b3bab52b3b2f774615cfc518c
