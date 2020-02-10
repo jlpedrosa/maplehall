@@ -8,7 +8,7 @@
 4. Create the walls following the lines of the walls of the flat.
 5. Scale up/down until the area of the flat has the same as the specs of your flat.
 
-You can download a sample of apt 5 [here](./3dmodeling/Clayfarm05.skp)
+You can download a sample of [apt 5](./3dmodeling/Apartment05_model.skp) and [apt 19](./3dmodeling/Apartment19_model.skp)
 Sample: ![apt 5 sample](./3dmodeling/SketchupSample.png "sample")
 
 
