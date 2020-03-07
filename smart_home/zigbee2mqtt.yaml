@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  zigbee2mqtt:
+    container_name: zigbee2mqtt
+    hostname: zigbee2mqtt
+    mac_address: 02:42:CF:F3:FF:1C
+    image: koenkk/zigbee2mqtt:1.11.0
+    volumes:
+      - /share/Container/volumes/zigbee2mqtt:/app/data
+      - /run/udev:/run/udev:ro
+    devices:
+      - /dev/ttyACM0:/dev/ttyACM0
+    restart: always
+    networks:
+      - qnet-smarthome
+    privileged: true
+    environment:
+      - TZ=Europe/Dublin
+
+networks:
+  qnet-smarthome:
+    external:
+      name: qnet-smarthome

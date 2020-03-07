@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  homeassistant:
+    container_name: homeassistant
+    hostname: homeassistant
+    mac_address: 02:42:0C:2F:05:1D
+    image: homeassistant/home-assistant:0.106.4
+    volumes:
+      - /share/Container/volumes/homeassistant:/config
+    environment:
+      - TZ=Europe/Dublin
+    restart: always
+    networks:
+      - qnet-smarthome
+
+networks:
+  qnet-smarthome:
+    external:
+      name: qnet-smarthome

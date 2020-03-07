@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  unificontroller:
+    container_name: unificontroller
+    hostname: unificontroller
+    mac_address: 02:42:01:D6:D0:33
+    image: linuxserver/unifi-controller:5.12.35-ls51
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - MEM_LIMIT=1024M #optional
+    volumes:
+      - /share/Container/volumes/unifi-controller:/config
+    restart: always
+    networks:
+      - qnet-core
+    privileged: true
+
+networks:
+  qnet-core:
+    external:
+      name: qnet-core

@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  mosquitto:
+    container_name: mosquitto
+    hostname: mosquitto
+    mac_address: 02:42:01:D6:D0:D6
+    image: eclipse-mosquitto:1.6.8
+    volumes:
+      - /share/Container/volumes/mosquitto:/mosquitto
+      - /share/Container/volumes/mosquitto/data:/mosquitto/data
+      - /share/Container/volumes/mosquitto/log:/mosquitto/log
+    restart: always
+    networks:
+      - qnet-smarthome
+    privileged: true
+
+networks:
+  qnet-smarthome:
+    external:
+      name: qnet-smarthome
